@@ -54,7 +54,7 @@ const projects = [
       description: "Monitoring dashboard for PLN NR",
       image: "/Dashboard_PLNNR.png",
       demoUrl: "",
-      githubUrl: "https://github.com/hanwil123/Project_PLN_NR",
+      githubUrl: "",
       tags: ["React", "Dashboard", "Analytics"],
     },
   ]
