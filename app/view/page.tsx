@@ -127,7 +127,7 @@ const stats = [
   },
   {
     label: "Experience",
-    value: "2",
+    value: "3",
     unit: "years",
   },
   {
