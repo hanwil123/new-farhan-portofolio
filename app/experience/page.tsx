@@ -6,6 +6,39 @@ import { Calendar, Building2, GraduationCap } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card"
 
 const experiences = [
+    {
+    title: "Frontend Developer – CRM Dashboard Internal (Tensora) ",
+    company: "Steradian Data Optima",
+    period: "Jan 2026 - Jul 2026",
+    location: "Onsite",
+    description: [
+      "Developed and maintained an internal CRM Dashboard (Tensora) using Vue.js, Quasar Framework, JavaScript, and REST API integration, building a unified interface for managing client, lead, and contact pipelines",
+      "Built complete end-to-end CRUD functionalities across core CRM modules including Lead Management, Account Management, Contact Management, Opportunity Management, and Task Management",
+      "Designed and implemented reusable and scalable UI components to improve maintainability anddevelopment efficiency across the platform",
+      "Integrated frontend applications with backend REST APIs, ensuring accurate data synchronization and seamless user experience.",
+      "Developed complex data forms with validation, filtering, searching, sorting, and pagination functionalities across all CRM modules.",
+      "Implemented sales pipeline and opportunity tracking interfaces, enabling users to monitor deal stages, pipeline value, and sales activities efficiently.",
+      "Built responsive dashboard views, tables, detail pages, and modal-based workflows following business requirements and UX standards.",
+      "Collaborated closely with Product Managers, UI/UX Designers, Backend Developers, and QA Engineers throughout the full software development lifecycle.",
+      "Optimized application performance and improved user experience through efficient state management and component reusability.",
+    ],
+    tags: ["Vue.js", "Quasar Framework", "Typescript", "REST API", "GIT", "Docker"],
+  },
+  {
+    title: "Frontend Developer – Payroll New Qlola, Bank Rakyat Indonesia",
+    company: "Steradian Data Optima",
+    period: "Jul 2025 - Jan 2026",
+    location: "Onsite",
+    description: [
+      "Developed and enhanced core features for the Payroll module in Qlola BRI, implementing several top-priority functionalities to improve employee data management and payroll operations.",
+      "Built scalable and maintainable frontend components using modern frameworks, ensuring optimal performance and long-term reliability across the payroll system.",
+      "Improved the accuracy and clarity of payroll reporting by enhancing data visualization and refining complex reporting logic for finance teams.",
+      "Collaborated closely with the Product and Backend teams to design, validate, and deploy new payroll capabilities aligned with user and business requirements.",
+      "Ensured data integrity and consistent performance across the payroll lifecycle by implementing robust state management, error handling, and UI consistency patterns.",
+      "Contributed to overall system stability by identifying issues early, performing thorough testing, and supporting QA in bug resolution and feature verification.",
+    ],
+    tags: ["Micro Frontend", "React.js", "TypeScript", "Next.js", "Tailwind CSS", "REST API"],
+  },
   {
     title: "Website Developer",
     company: "PLN Nusantara Renewables",
@@ -19,6 +52,36 @@ const experiences = [
     ],
     tags: ["Next.js", "TailwindCSS", "ShadcnUI", "REST API"],
   },
+  {
+    title: "Android Developer – BRImo, Bank Rakyat Indonesia",
+    company: "Steradian Data Optima",
+    period: "Mar 2026 - Apr 2026",
+    location: "Onsite, Full Time | Jakarta, Indonesia",
+    description: [
+      "Developed two major modules for BRImo, the official mobile banking application of Bank Rakyat Indonesia, using Kotlin, Jetpack Compose, Retrofit, and MVVM architecture.",
+      "Built the SIGNAL module (Samsat Digital Nasional) end-to-end from scratch, enabling customers to pay vehicle tax digitally — covering customer number and regional area input, payment confirmation, PIN verification, and payment success detail screens.",
+      "Developed the SBN (Surat Berharga Negara) module consisting of two sub-modules: SBN Registration (active and upcoming product listing, detail view, purchase simulation, terms & conditions, registration verification) and SBN Portfolio (displaying purchased SBN products with individual detail views).",
+      "Collaborated with backend and product teams to ensure accurate data rendering and smooth user flow across all developed screens.",
+    ],
+    tags: ["Kotlin", "Jetpack Compose", "Retrofit", "MVVM", "Android SDK"],
+  },
+  {
+    title: "Backend Developer – CRM Dashboard Internal (Tensora)",
+    company: "Steradian Data Optima",
+    period: "Jan 2026 - Mar 2026",
+    location: "Onsite, Full Time | Jakarta, Indonesia",
+    description: [
+      "Developed and architected the internal CRM dashboard Tensora using Golang, Go Chi, GORM, and PostgreSQL, designed to monitor and manage incoming clients, leads, and contacts across the sales pipeline.",
+      "Designed and implemented the database schema and relational structure for the Leads and Contacts modules, ensuring data integrity and scalability for future feature development.",
+      "Built RESTful APIs for the Leads module covering full CRUD operations: lead creation, detail view, editing, deletion, and lead-to-contact conversion.",
+      "Built RESTful APIs for the Contacts module supporting contact management with associated account linking, opportunity tracking, and engagement summary aggregation.",
+      "Implemented pipeline and opportunity tracking logic on the backend, enabling real-time calculation of total pipeline value, win rate, and deal stage distribution displayed on the dashboard.",
+      "Developed activity and engagement summary endpoints aggregating data such as total interactions, last email/call date, and upcoming tasks per lead and contact.",
+      "Engineered role-based data ownership support, allowing leads and contacts to be assigned to specific owners with filtered access per user.",
+    ],
+    tags: ["Golang", "Go Chi", "GORM", "PostgreSQL", "REST API", "Docker", "Linux"],
+  },
+
   {
     title: "Android Developer & Lab Assistant",
     company: "Lepkom Gunadarma University",

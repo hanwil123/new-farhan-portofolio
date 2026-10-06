@@ -10,12 +10,20 @@ import { Badge } from "../components/ui/badge"
 
 const projects = [
     {
-      title: "Weather Web",
-      description: "Real-time weather application with detailed forecasts and interactive maps",
-      image: "/weather.jpg",
-      demoUrl: "https://han-weather-web.vercel.app/",
-      githubUrl: "https://github.com/yourusername/weather-web",
-      tags: ["React", "TailwindCSS", "Weather API"],
+      title: "Coffeeshop POS System",
+      description: "Point of Sale system for a coffee shop with modern AI integration system",
+      image: "https://cdn.phototourl.com/member/2026-10-06-bc4494aa-8233-4403-be1d-eff4cd02c597.png",
+      demoUrl: "https://pos-fnb-nu.vercel.app/",
+      githubUrl: "https://github.com/hanwil123/pos_fnb",
+      tags: ["Next.js", "TailwindCSS", "API Integration", "Zustand", "Typescript",],
+    },
+    {
+      title: "PLN NR Dashboard",
+      description: "Monitoring dashboard for PLN NR",
+      image: "/Dashboard_PLNNR.png",
+      demoUrl: "",
+      githubUrl: "",
+      tags: ["React", "Dashboard", "Analytics"],
     },
     {
       title: "Quran Online",
@@ -24,14 +32,6 @@ const projects = [
       demoUrl: "https://new-quran.vercel.app/",
       githubUrl: "https://github.com/yourusername/quran-online",
       tags: ["Next.js", "TailwindCSS", "API Integration"],
-    },
-    {
-      title: "Chat Website",
-      description: "Real-time chat application with modern UI",
-      image: "/chat.jpg",
-      demoUrl: "",
-      githubUrl: "https://github.com/hanwil123/next-chat-ts",
-      tags: ["TypeScript", "Next.js", "WebSocket"],
     },
     {
       title: "Novel Nest Dashboard",
@@ -48,14 +48,6 @@ const projects = [
       demoUrl: "",
       githubUrl: "https://github.com/hanwil123/JurnalBuku-Apps",
       tags: ["Flutter", "Mobile", "Books"],
-    },
-    {
-      title: "PLN NR Dashboard",
-      description: "Monitoring dashboard for PLN NR",
-      image: "/Dashboard_PLNNR.png",
-      demoUrl: "",
-      githubUrl: "",
-      tags: ["React", "Dashboard", "Analytics"],
     },
   ]
 
@@ -90,6 +82,7 @@ export default function Projects() {
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="group relative overflow-hidden rounded-xl border border-white/10 bg-black/50 backdrop-blur-sm"
             >
+              <a href={project.demoUrl}>
               <div className="relative aspect-video overflow-hidden">
                 <Image
                   src={project.image }
@@ -142,6 +135,8 @@ export default function Projects() {
                   )}
                 </div> */}
               </div>
+              </a>
+
             </motion.div>
           ))}
         </div>
